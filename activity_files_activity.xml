@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_main"
+    android:layout_height="match_parent"
+    tools:context=".Files_activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="FILES"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+    <ListView
+        android:layout_width="match_parent"
+    android:id="@+id/lv_pdf"
+    android:divider="#efefef"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginBottom="10dp"
+    android:dividerHeight="5dp"
+    android:layout_height="wrap_content">
+
+</ListView>
+</LinearLayout>
